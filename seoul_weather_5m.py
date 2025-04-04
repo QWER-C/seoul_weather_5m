@@ -30,6 +30,6 @@ with open(csv_filename, "a", newline="") as file:
     if not file_exist:
         writer.writerow(header)
 
-    writer.writerow([temp, time])
+    writer.writerow([time, temp])
 
     print("서울 기온 저장 완료!!")
